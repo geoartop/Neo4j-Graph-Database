@@ -1,3 +1,6 @@
+//1. Show a small portion of your graph database (screenshot)
+MATCH (n) RETURN n LIMIT 25
+
 //2. Count all users, count all targets, count all actions:
 MATCH (u:User)
 RETURN count (u)
